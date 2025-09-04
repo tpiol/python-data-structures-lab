@@ -47,3 +47,15 @@ def combine_foods():
 
 # Call the function and print the result
 print('Exercise 2:', combine_foods())
+
+# Exercise 3: Slicing Tuples
+#
+# Using the slice operator, assign a new tuple containing only the last two food strings in the foods to a variable named last_two_foods.
+
+def slice_foods():
+     foods = ('rice', 'bread', 'cookies')
+     last_two_foods = foods[1:]
+     return last_two_foods
+
+# Call the function and print the result
+print('Exercise 3:', slice_foods())
